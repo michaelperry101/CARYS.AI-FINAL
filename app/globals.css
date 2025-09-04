@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root light defaults */
+:root {
+  color-scheme: light;
+}
+
+/* Smooth transitions for theme + sidebar */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-carys-text;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #edf2ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #93c5fd;
+}
