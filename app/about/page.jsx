@@ -1,10 +1,12 @@
-export const metadata = { title: "About" };
-export default function About() {
+export const metadata = { title: "About — Carys" };
+
+export default function AboutPage() {
   return (
-    <div className="prose max-w-2xl">
-      <h1>About Carys</h1>
-      <p><strong>Carys</strong> stands for <em>Conversational Assistant Responsive Yielding Solutions</em>.</p>
-      <p>It’s designed to feel fast, polished and real from day one.</p>
-    </div>
+    <main className="page-wrap p-6 md:p-10">
+      <h1 className="text-3xl font-semibold mb-4">About Carys</h1>
+      <p className="max-w-2xl">
+        Carys — Conversational Assistant for Rapid Yielding Solutions.
+      </p>
+    </main>
   );
 }
