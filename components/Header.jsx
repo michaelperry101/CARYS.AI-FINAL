@@ -14,7 +14,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.svg" alt="Carys" width={28} height={28} />
+            <Image src="/logo.png" alt="Carys" width={28} height={28} />
             <span className="font-semibold tracking-tight text-lg">Carys</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 ml-6 text-sm text-slate-600">
