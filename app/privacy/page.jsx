@@ -1,9 +1,13 @@
-export const metadata = { title: "Privacy" };
-export default function Privacy() {
+export const metadata = { title: "Privacy — Carys" };
+
+export default function PrivacyPage() {
   return (
-    <div className="prose max-w-2xl">
-      <h1>Privacy Policy</h1>
-      <p>We keep it simple. Your session data is secured via NextAuth. Chat requests are sent to the configured model provider only when you press Send.</p>
-    </div>
+    <main className="page-wrap p-6 md:p-10">
+      <h1 className="text-3xl font-semibold mb-4">Privacy Policy</h1>
+      <div className="prose max-w-3xl">
+        <p>We respect your privacy.</p>
+        {/* …your real privacy content… */}
+      </div>
+    </main>
   );
 }
