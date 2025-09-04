@@ -1,14 +1,12 @@
-export const metadata = { title: "Reviews" };
-export default function Reviews() {
+export const metadata = { title: "Reviews — Carys" };
+
+export default function ReviewsPage() {
   return (
-    <div className="prose max-w-2xl">
-      <h1>Reviews</h1>
-      <p>Early users love the focus, the speed, and the simple “just works” vibe.</p>
-      <ul>
-        <li>“Clean, crisp, no fluff.”</li>
-        <li>“Sign-in worked first try.”</li>
-        <li>“Light theme is perfect.”</li>
-      </ul>
-    </div>
+    <main className="page-wrap p-6 md:p-10">
+      <h1 className="text-3xl font-semibold mb-4">Reviews</h1>
+      <div className="grid gap-4 md:grid-cols-2">
+        {/* …cards or testimonials… */}
+      </div>
+    </main>
   );
 }
